@@ -3,7 +3,7 @@ This script will create or update a .gitignore file in the current directory. It
 
 
 # How does this work?
-1. It will scan all files recursively and if it files a file (or folder) that matches a key in `config.json`, it will fetch the corresponding gitignore data and aggregate everything into a single `.gitignore` file.
+1. It will scan all files recursively and if it finds a file (or folder) that matches a key in `config.json`, it will fetch the corresponding gitignore data and aggregate everything into a single `.gitignore` file.
 2. If the `.gitignore` file already exists, it will update it with the new data.
 3. Only unique data will be added to the `.gitignore` file.
 4. The data will be sanitized: No empty lines or comments.
