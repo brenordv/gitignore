@@ -76,6 +76,12 @@ def _get_gitignore_for(target: str, config: dict) -> list:
     return _extract_gitignore_data(config_item)
 
 
+def _get_target(file: Path):
+    target = file.name if file.is_dir() else file.suffixes[-1]
+    target = target.lower().strip()
+    return target
+
+
 def _sanitize_gitignore_data(gitignore_data):
     data = set()
     for line in gitignore_data:
@@ -112,7 +118,7 @@ def main():
         if _is_git(file) or file == target_gitignore or _is_in_ignorable_folder(file):
             continue
 
-        target = file.name if file.is_dir() else file.suffixes[-1]
+        target = _get_target(file)
         if target in already_added or target not in config:
             continue
 
