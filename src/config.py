@@ -22,7 +22,9 @@ def parse_config() -> dict:
 
     data = {}
     with open(_CONFIG_FILE_PATH, 'r') as f:
-        for key, value in json.load(f).items():
+        content = f.read()
+        json_content = json.loads(content)
+        for key, value in json_content.items():
             _parse_config_key(data, key, value)
 
     return data
