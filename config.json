@@ -1,0 +1,12 @@
+{
+  ".py": "https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore",
+  ".cs|.sln|.csproj": "https://raw.githubusercontent.com/dotnet/core/main/.gitignore",
+  ".cpp": "https://raw.githubusercontent.com/github/gitignore/main/C%2B%2B.gitignore",
+  ".java": "https://raw.githubusercontent.com/github/gitignore/main/Java.gitignore",
+  ".js": "https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore",
+  ".ts": "https://raw.githubusercontent.com/microsoft/TypeScript/main/.gitignore",
+  ".go": "https://raw.githubusercontent.com/github/gitignore/main/Go.gitignore",
+  ".idea": "https://raw.githubusercontent.com/github/gitignore/main/Global/JetBrains.gitignore",
+  ".vscode": "https://raw.githubusercontent.com/github/gitignore/main/Global/VisualStudioCode.gitignore",
+  ".vs": "https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore"
+}
