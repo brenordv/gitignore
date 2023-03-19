@@ -79,7 +79,11 @@ def _get_gitignore_for(target: str, config: dict) -> list:
 
 
 def _get_target(file: Path):
-    target = file.name if file.is_dir() else file.suffixes[-1]
+    if file.is_dir() or len(file.suffixes) == 0 or file.suffix == "":
+        target = file.name
+    else:
+        target = file.suffixes[-1]
+
     target = target.lower().strip()
     return target
 
