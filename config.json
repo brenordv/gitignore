@@ -8,7 +8,7 @@
   ".js": "https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore",
   ".ts": "https://raw.githubusercontent.com/microsoft/TypeScript/main/.gitignore",
   ".go": "https://raw.githubusercontent.com/github/gitignore/main/Go.gitignore",
-  ".idea": "https://raw.githubusercontent.com/github/gitignore/main/Global/JetBrains.gitignore",
+  ".idea|.fleet": "https://raw.githubusercontent.com/github/gitignore/main/Global/JetBrains.gitignore",
   ".vscode": "https://raw.githubusercontent.com/github/gitignore/main/Global/VisualStudioCode.gitignore",
   ".vs": "https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore"
 }
