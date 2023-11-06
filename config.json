@@ -7,6 +7,7 @@
   ".java": "https://raw.githubusercontent.com/github/gitignore/main/Java.gitignore",
   ".js": "https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore",
   ".ts": "https://raw.githubusercontent.com/microsoft/TypeScript/main/.gitignore",
+  ".txs|.jsx": "https://raw.githubusercontent.com/facebook/react/main/.gitignore",
   ".go": "https://raw.githubusercontent.com/github/gitignore/main/Go.gitignore",
   ".idea|.fleet": "https://raw.githubusercontent.com/github/gitignore/main/Global/JetBrains.gitignore",
   ".vscode": "https://raw.githubusercontent.com/github/gitignore/main/Global/VisualStudioCode.gitignore",
