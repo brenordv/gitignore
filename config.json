@@ -12,5 +12,6 @@
   ".idea|.fleet": "https://raw.githubusercontent.com/github/gitignore/main/Global/JetBrains.gitignore",
   ".vscode": "https://raw.githubusercontent.com/github/gitignore/main/Global/VisualStudioCode.gitignore",
   ".vs": "https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore",
-  ".rs|.rs.bk": "https://raw.githubusercontent.com/github/gitignore/main/Rust.gitignore"
+  ".rs|.rs.bk": "https://raw.githubusercontent.com/github/gitignore/main/Rust.gitignore",
+  ".uproject|.umap|.uasset|.ubulk|.uexp|.uplugin|.usf|.ush": "https://raw.githubusercontent.com/github/gitignore/main/UnrealEngine.gitignore"
 }
