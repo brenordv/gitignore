@@ -14,5 +14,6 @@
   ".vs": "https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore",
   ".rs|.rs.bk": "https://raw.githubusercontent.com/github/gitignore/main/Rust.gitignore",
   ".uproject|.umap|.uasset|.ubulk|.uexp|.uplugin|.usf|.ush": "https://raw.githubusercontent.com/github/gitignore/main/UnrealEngine.gitignore",
-  "hugo_stats.json|.hugo_build.lock|hugo.exe|hugo.darwin|hugo.linux": "https://raw.githubusercontent.com/github/gitignore/main/community/Golang/Hugo.gitignore"
+  "hugo_stats.json|.hugo_build.lock|hugo.exe|hugo.darwin|hugo.linux": "https://raw.githubusercontent.com/github/gitignore/main/community/Golang/Hugo.gitignore",
+  ".cursor|.cursor-tmp|cursor-output|.cursorrules": "https://raw.githubusercontent.com/oslook/cursor-ai-downloads/refs/heads/main/.gitignore"
 }
