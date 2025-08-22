@@ -1,3 +1,5 @@
+> Project ported to Rust. You can find it here: https://github.com/brenordv/rusted-toolbox/blob/master/crates/tool-gitignore/readme.md
+
 # Gitignore creator/updater
 This script will create or update a .gitignore file in the current directory. It will also create a .gitignore file in the current directory if one does not exist.
 
